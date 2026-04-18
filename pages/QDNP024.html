@@ -1,0 +1,295 @@
+<!doctype html>
+<title> ViNAS-Toolbox</title>
+<head>
+  <link rel="icon" href="/static/img/logo.gif">
+</head>
+<link rel="stylesheet" href="/static/style.css">
+<!-- this is used for the side bar nav as an alternative to bootstrap -->
+<!-- the link is here: https://www.w3schools.com/w3css/w3css_sidebar.asp -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- This is used for the fa icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- 3Dmol.js -->
+<script src="https://3Dmol.csb.pitt.edu/build/3Dmol-min.js"></script>
+<!-- datatable -->
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.css">
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.js"></script>
+<!-- Plotly -->
+<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+<!-- RDKit -->
+<script src="https://unpkg.com/@rdkit/rdkit/Code/MinimalLib/dist/RDKit_minimal.js"></script>
+<script src="https://kit.fontawesome.com/49f548a10b.js" crossorigin="anonymous"></script>
+<style>
+
+</style>
+
+<header>
+  
+</header>
+
+<section class="content">
+  
+</section>
+
+<div class="w3 my-nav" id="myTopnav">
+
+    <a href="/index"><img src="/static/img/vinas-toolbox.png" style="width: 120px;"></a>
+
+    <a href="/tutorial"><button class="w3-button w3-medium" href="/tutorial"><i style="font-size:24px" class="fa">&#xf5da;</i> Tutorial</button></a>
+
+    <a href="/assay"><button class="w3-button w3-medium" href="/assay"><i style="font-size:24px" class="fa">&#xf0c3;</i> Assay</button></a>
+    <a href="/explore"><button class="w3-button w3-medium" href="/explore"><i style="font-size:24px" class="fas">&#xf6cf;</i> Structure</button></a>
+    <div class="dropdown" id="myDropdown1">
+      <button class="dropbtn">
+        <i style='font-size:24px' class='fas'>&#xf15c;</i> Descriptor <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="/desc_home">Introduction</a>
+        <a href="/desc_list/">Descriptor List</a>
+        <a href="/desc_upload">Descriptor Upload</a>
+      </div>
+    </div>
+
+    <div class="dropdown" id="myDropdown2">
+      <button class="dropbtn">
+        <i style='font-size:24px' class='fas'>&#xf108;</i> Model <i class="fa fa-caret-down"></i>
+      </button>
+        <div class="dropdown-content">
+          <a href="/model_home">Introduction</a>
+          <a href="/model_developed_aid9">NanoPredictor</a>
+          <a href="#">AutoNanoML <i class="fa fa-caret-down"></i></a>
+          <div class="sub-1" id="sub-1">
+            <a href="/model_custom_lr">Linear Regression</a>
+            <a href="/model_custom_plsr">Partial Least Squares Regression</a>
+          </div>
+        </div>
+    </div>
+
+    <div class="dropdown" id="myDropdown3">
+        <button class="dropbtn">
+          <i style='font-size:24px' class='fas'>&#xf1c0;</i> Library <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="/library_home">Introduction</a>
+          <a href="/library_analysis_ptnp">Library Analysis</a>
+          <a href="/library_prediction_ptnp">Endpoint Profile</a>
+        </div>
+    </div>
+
+    <div class="dropdown" id="myDropdown4">
+      <button class="dropbtn">
+        <i style='font-size:24px' class='fa'>&#xf1e0;</i> Service <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="/aboutus">Contact Us</a>
+        <a href="/deposit_data">Data Deposit</a>
+        <a href="/calculation_service">Calculation Service</a>
+      </div>
+    </div>
+
+    <a href="/search"><button class="w3-button w3-medium" href="/search"><i style="font-size:24px" class="fa">&#xf002;</i> Search</button></a>
+
+    
+      <a href="/auth/login"><button class="w3-button w3-medium" href="/auth/login"><i style="font-size:24px" class="fa">&#xf090;</i> Sign In</button></a>
+    
+
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+
+</div>
+
+  
+
+<div class="w3-row">
+
+    <div class="w3-col lg12 w3-panel w3-left my-panel">
+        <h3 id="record_header"><span>Record for <strong>QDNP024</strong></span></h3>
+        <a href="/send_pdb/QDNP024"><button class="download_and_back"><i style="font-size:24px" class="fa">&#xf019;</i>  Download PDB File</button></a>
+        <a href="/send_desc/QDNP024"><button class="download_and_back"><i style="font-size:24px" class="fa">&#xf019;</i>  Download Descriptor File</button></a>
+        <div class="addtolist">
+            
+                
+            
+
+            
+                <form action="" id="add_desc">
+                    <button type="submit" class="download_and_back" name="addtolist" value="Yes">
+                        <i style="font-size:24px" class="fa">&#xf217;</i>
+                        Add to Descriptor List
+                    </button>
+                </form>
+            
+            <!-- 
+                <form action="" id="add_desc">
+                    <button type="submit" class="download_and_back" name="addtolist" value="Yes"><i style="font-size:24px" class="fa">&#xf217;</i>  Add to Descriptor List</button>
+                </form>
+             -->
+        </div>
+        <div class="backtogroup">
+            <a href="/explore_group/Quantum%20dot%20nanoparticles">
+                <button class="download_and_back"><i style='font-size:24px' class='fas'>&#xf0e2;</i>  Back to Nanomaterials Group</button>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="w3-row">
+
+    <div class="w3-col s4 w3-panel">
+
+        <h5><span id="nanoName">ViNAS-ID: QDNP024</span></h5>
+        <ul id="meta_list" class="assay-list-inline">
+            
+                <li id="core_type" class="assay-list-item">
+                    <strong>Type:&nbsp;</strong><span id="Type">Quantum dot nanoparticle</span>
+                </li>
+            
+                <li id="core_type" class="assay-list-item">
+                    <strong>Shape:&nbsp;</strong><span id="Shape">Sphere</span>
+                </li>
+            
+                <li id="core_type" class="assay-list-item">
+                    <strong>Core:&nbsp;</strong><span id="Core">Si</span>
+                </li>
+            
+                <li id="core_type" class="assay-list-item">
+                    <strong>Size:&nbsp;</strong><span id="Size">1.73</span>
+                </li>
+            
+                <li id="core_type" class="assay-list-item">
+                    <strong>Surfactant:&nbsp;</strong><span id="Surfactant">-</span>
+                </li>
+            
+                <li id="core_type" class="assay-list-item">
+                    <strong>#Ligand1:&nbsp;</strong><span id="#Ligand1">30</span>
+                </li>
+            
+                <li id="core_type" class="assay-list-item">
+                    <strong>Reference:&nbsp;</strong><span id="Reference">Scientific Reports 2018, 8, 1–10.</span>
+                </li>
+            
+                <li id="core_type" class="assay-list-item">
+                    <strong>Note:&nbsp;</strong><span id="Note">-</span>
+                </li>
+            
+        </ul>
+
+    </div>
+    <div class="w3-col s4 w3-panel w3-center">
+        
+            <h5 id="structure_header"><span>Structure for QDNP024</span></h5>
+            <div id="container-01" class="mol-container"></div>
+        
+        
+    </div>
+    <div class="w3-col s4 w3-panel w3-center">
+        
+            <h5 id="Surface Chemistry"><span>Surface Chemistry for QDNP024</span></h5>
+
+            
+                <div id="ligand-1" class="ligand-container"></div>
+            
+        
+    </div>
+
+</div>
+
+<div class="w3-row">
+
+    <div class="w3-col s12 w3-panel w3-left my-panel">
+        <h3>Tested Assay Results</h3>
+        
+        <p>There are no assay results for QDNP024 </p>
+        
+    </div>
+
+</div>
+<div class="w3-row">
+    <div class="w3-col s12 w3-panel w3-left">
+        <div id="actTableHolder">
+            <table id="actTable" class="display">
+
+            </table>
+        </div>
+    </div>
+
+</div>
+
+<script>
+        
+        onRuntimeInitialized: initRDKitModule().then(function (instance) {
+            RDKitModule = instance
+            
+            var mol = RDKitModule.get_mol("C/C=C/C1=C(C=CC=C2C3=CC=CC4=CC=CC5=C34)C2=C5C=C1");
+            var dest = document.getElementById('ligand-1');
+            var svg = mol.get_svg();
+            dest.outerHTML = "<div id='drawing'>" + svg + "</div>";
+            
+        })
+        
+
+      var element = $('#container-01');
+      var config = { backgroundColor: 'white' };
+      var viewer = $3Dmol.createViewer(element, config);
+
+      let pdbUri = "/get_pdb/" + "Quantum dot nanoparticles" + "/" + "QDNP024";
+      $.ajax( pdbUri, {
+        success: function(data) {
+          console.log("success");
+          console.log(data);
+          let v = viewer;
+
+          
+          v.clear();
+          v.addModel( data, "pdb" ); /* load data */
+<!--          v.setStyle({}, {stick: {colorscheme: 'ssPyMOL'}});-->
+          v.setStyle({}, {sphere: {scale: 0.75, colorscheme: 'ssPyMOL'}});
+
+          v.zoomTo();
+          v.render();
+        },
+        error: function(hdr, status, err) {
+          console.error( "Failed to load PDB " + pdbUri + ": " + err );
+        },
+      });
+
+
+    
+
+</script>
+
+
+
+<script>
+  function w3_open() {
+    document.getElementById("dbSidebar").style.display = "block";
+  }
+
+  function w3_close() {
+    document.getElementById("dbSidebar").style.display = "none";
+  }
+          window.initRDKitModule()
+              .then(function(RDKit) {
+                  console.log("RDKit version: " + RDKit.version());
+                  window.RDKit = RDKit;
+                  /**
+                   * The RDKit module is now loaded.
+                   * You can use it anywhere.
+                   */
+              })
+              .catch(() => {
+                  // handle loading errors here...
+              });
+</script>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "w3.my-nav") {
+      x.className += " responsive";
+    } else {
+      x.className = "w3.my-nav";
+    }
+  }
+</script>
