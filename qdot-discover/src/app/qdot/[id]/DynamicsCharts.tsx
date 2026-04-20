@@ -42,7 +42,7 @@ function EigenChart({
                 borderRadius: "8px",
                 fontSize: "0.72rem",
               }}
-              formatter={(v: number) => [v.toFixed(4), "λ"]}
+              formatter={(v) => [typeof v === "number" ? v.toFixed(4) : v, "λ"]}
               labelFormatter={(l) => `Mode ${l}`}
             />
             <Area
