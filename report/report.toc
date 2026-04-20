@@ -1,0 +1,11 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{Initial Calculations}{2}{section*.2}%
+\contentsline {section}{Initial Calculations (Continued)}{3}{section*.3}%
+\contentsline {section}{GNM Construction and Results}{4}{section*.4}%
+\contentsline {section}{GNM Construction and Results (Continued)}{7}{section*.5}%
+\contentsline {section}{GNM Construction and Results (Continued)}{8}{section*.6}%
+\contentsline {section}{ANM Construction and Results}{9}{section*.7}%
+\contentsline {section}{ANM Construction and Results (Continued)}{10}{section*.8}%
+\contentsline {section}{ANM Construction and Results (Continued)}{11}{section*.9}%
+\contentsline {section}{ANM Construction and Results (Continued)}{13}{section*.10}%
+\contentsline {section}{Final Remarks}{16}{section*.11}%

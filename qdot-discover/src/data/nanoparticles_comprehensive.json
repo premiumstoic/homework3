@@ -1,0 +1,768 @@
+[
+    {
+        "id": "QDNP001",
+        "structure": {
+            "total_atoms": 1214,
+            "elements": {
+                "Cd": 265,
+                "Se": 249,
+                "C": 550,
+                "S": 50,
+                "O": 100
+            },
+            "dimensions_angstroms": {
+                "x": 56.8,
+                "y": 57.99,
+                "z": 58.1
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": {
+            "assay_name": "Zeta Potential in Water",
+            "result": -71.8,
+            "sd": 11.5
+        }
+    },
+    {
+        "id": "QDNP002",
+        "structure": {
+            "total_atoms": 814,
+            "elements": {
+                "Cd": 265,
+                "Se": 249,
+                "C": 150,
+                "S": 50,
+                "O": 100
+            },
+            "dimensions_angstroms": {
+                "x": 42.49,
+                "y": 41.99,
+                "z": 42.5
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": {
+            "assay_name": "Zeta Potential in Water",
+            "result": -45.3,
+            "sd": 12.1
+        }
+    },
+    {
+        "id": "QDNP003",
+        "structure": {
+            "total_atoms": 1164,
+            "elements": {
+                "Cd": 265,
+                "Se": 249,
+                "S": 50,
+                "C": 550,
+                "N": 50
+            },
+            "dimensions_angstroms": {
+                "x": 63.74,
+                "y": 64.86,
+                "z": 64.51
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": {
+            "assay_name": "Zeta Potential in Water",
+            "result": -62.7,
+            "sd": 10.8
+        }
+    },
+    {
+        "id": "QDNP004",
+        "structure": {
+            "total_atoms": 714,
+            "elements": {
+                "Cd": 265,
+                "Se": 249,
+                "S": 50,
+                "C": 100,
+                "N": 50
+            },
+            "dimensions_angstroms": {
+                "x": 42.96,
+                "y": 42.79,
+                "z": 42.34
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": {
+            "assay_name": "Zeta Potential in Water",
+            "result": -38.5,
+            "sd": 13.2
+        }
+    },
+    {
+        "id": "QDNP005",
+        "structure": {
+            "total_atoms": 3129,
+            "elements": {
+                "Cd": 872,
+                "Se": 857,
+                "C": 1100,
+                "S": 100,
+                "O": 200
+            },
+            "dimensions_angstroms": {
+                "x": 74.6,
+                "y": 74.66,
+                "z": 74.81
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": {
+            "assay_name": "Zeta Potential in Water",
+            "result": -75.1,
+            "sd": 9.5
+        }
+    },
+    {
+        "id": "QDNP006",
+        "structure": {
+            "total_atoms": 2329,
+            "elements": {
+                "Cd": 872,
+                "Se": 857,
+                "C": 300,
+                "S": 100,
+                "O": 200
+            },
+            "dimensions_angstroms": {
+                "x": 58.87,
+                "y": 58.74,
+                "z": 58.85
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": {
+            "assay_name": "Zeta Potential in Water",
+            "result": -51.9,
+            "sd": 11.7
+        }
+    },
+    {
+        "id": "QDNP007",
+        "structure": {
+            "total_atoms": 3029,
+            "elements": {
+                "Cd": 872,
+                "Se": 857,
+                "S": 100,
+                "C": 1100,
+                "N": 100
+            },
+            "dimensions_angstroms": {
+                "x": 81.26,
+                "y": 81.25,
+                "z": 81.18
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": {
+            "assay_name": "Zeta Potential in Water",
+            "result": -68.3,
+            "sd": 10.3
+        }
+    },
+    {
+        "id": "QDNP008",
+        "structure": {
+            "total_atoms": 2129,
+            "elements": {
+                "Cd": 872,
+                "Se": 857,
+                "S": 100,
+                "C": 200,
+                "N": 100
+            },
+            "dimensions_angstroms": {
+                "x": 59.33,
+                "y": 59.38,
+                "z": 59.27
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": {
+            "assay_name": "Zeta Potential in Water",
+            "result": -42.6,
+            "sd": 12.8
+        }
+    },
+    {
+        "id": "QDNP009",
+        "structure": {
+            "total_atoms": 17469,
+            "elements": {
+                "Cd": 5809,
+                "Se": 6060,
+                "C": 4400,
+                "S": 400,
+                "O": 800
+            },
+            "dimensions_angstroms": {
+                "x": 120.99,
+                "y": 120.99,
+                "z": 121.12
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": {
+            "assay_name": "Zeta Potential in Water",
+            "result": -73.4,
+            "sd": 10.6
+        }
+    },
+    {
+        "id": "QDNP010",
+        "structure": {
+            "total_atoms": 14269,
+            "elements": {
+                "Cd": 5809,
+                "Se": 6060,
+                "C": 1200,
+                "S": 400,
+                "O": 800
+            },
+            "dimensions_angstroms": {
+                "x": 105.42,
+                "y": 105.34,
+                "z": 105.28
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": {
+            "assay_name": "Zeta Potential in Water",
+            "result": -55.8,
+            "sd": 11.3
+        }
+    },
+    {
+        "id": "QDNP011",
+        "structure": {
+            "total_atoms": 17069,
+            "elements": {
+                "Cd": 5809,
+                "Se": 6060,
+                "S": 400,
+                "C": 4400,
+                "N": 400
+            },
+            "dimensions_angstroms": {
+                "x": 128.28,
+                "y": 128.27,
+                "z": 128.29
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": {
+            "assay_name": "Zeta Potential in Water",
+            "result": -64.2,
+            "sd": 12.5
+        }
+    },
+    {
+        "id": "QDNP012",
+        "structure": {
+            "total_atoms": 13469,
+            "elements": {
+                "Cd": 5809,
+                "Se": 6060,
+                "S": 400,
+                "C": 800,
+                "N": 400
+            },
+            "dimensions_angstroms": {
+                "x": 106.0,
+                "y": 106.03,
+                "z": 106.01
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": {
+            "assay_name": "Zeta Potential in Water",
+            "result": -48.7,
+            "sd": 10.9
+        }
+    },
+    {
+        "id": "QDNP013",
+        "structure": {
+            "total_atoms": 2205,
+            "elements": {
+                "Te": 903,
+                "Cd": 902,
+                "S": 100,
+                "C": 200,
+                "N": 100
+            },
+            "dimensions_angstroms": {
+                "x": 59.33,
+                "y": 61.01,
+                "z": 59.33
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": {
+            "assay_name": "Zeta Potential in Water",
+            "result": -53.6,
+            "sd": 11.8
+        }
+    },
+    {
+        "id": "QDNP014",
+        "structure": {
+            "total_atoms": 3105,
+            "elements": {
+                "Te": 903,
+                "Cd": 902,
+                "S": 200,
+                "C": 700,
+                "N": 200,
+                "O": 200
+            },
+            "dimensions_angstroms": {
+                "x": 69.39,
+                "y": 67.21,
+                "z": 69.4
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": "no_data"
+    },
+    {
+        "id": "QDNP015",
+        "structure": {
+            "total_atoms": 2805,
+            "elements": {
+                "Te": 903,
+                "Cd": 902,
+                "C": 500,
+                "N": 100,
+                "S": 100,
+                "O": 300
+            },
+            "dimensions_angstroms": {
+                "x": 63.05,
+                "y": 63.3,
+                "z": 63.26
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": "no_data"
+    },
+    {
+        "id": "QDNP016",
+        "structure": {
+            "total_atoms": 1953,
+            "elements": {
+                "Te": 736,
+                "Cd": 767,
+                "S": 90,
+                "C": 180,
+                "O": 180
+            },
+            "dimensions_angstroms": {
+                "x": 59.48,
+                "y": 59.55,
+                "z": 59.49
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": {
+            "assay_name": "Zeta Potential in Water",
+            "result": -69.5,
+            "sd": 11.1
+        }
+    },
+    {
+        "id": "QDNP017",
+        "structure": {
+            "total_atoms": 272,
+            "elements": {
+                "Te": 88,
+                "Cd": 84,
+                "S": 20,
+                "C": 40,
+                "O": 40
+            },
+            "dimensions_angstroms": {
+                "x": 31.71,
+                "y": 31.42,
+                "z": 31.64
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": {
+            "assay_name": "Zeta Potential in Water",
+            "result": -70.8,
+            "sd": 10.7
+        }
+    },
+    {
+        "id": "QDNP018",
+        "structure": {
+            "total_atoms": 2405,
+            "elements": {
+                "Te": 903,
+                "Cd": 902,
+                "C": 300,
+                "S": 100,
+                "O": 200
+            },
+            "dimensions_angstroms": {
+                "x": 59.03,
+                "y": 58.97,
+                "z": 58.89
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": "no_data"
+    },
+    {
+        "id": "QDNP019",
+        "structure": {
+            "total_atoms": 2205,
+            "elements": {
+                "Te": 903,
+                "Cd": 902,
+                "S": 100,
+                "C": 200,
+                "N": 100
+            },
+            "dimensions_angstroms": {
+                "x": 57.5,
+                "y": 59.59,
+                "z": 59.58
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": "no_data"
+    },
+    {
+        "id": "QDNP020",
+        "structure": {
+            "total_atoms": 3105,
+            "elements": {
+                "Te": 903,
+                "Cd": 902,
+                "S": 200,
+                "C": 700,
+                "N": 200,
+                "O": 200
+            },
+            "dimensions_angstroms": {
+                "x": 68.77,
+                "y": 68.8,
+                "z": 61.85
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": "no_data"
+    },
+    {
+        "id": "QDNP021",
+        "structure": {
+            "total_atoms": 359,
+            "elements": {
+                "Si": 119,
+                "C": 240
+            },
+            "dimensions_angstroms": {
+                "x": 31.79,
+                "y": 32.08,
+                "z": 32.11
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": "no_data"
+    },
+    {
+        "id": "QDNP022",
+        "structure": {
+            "total_atoms": 719,
+            "elements": {
+                "Si": 209,
+                "C": 510
+            },
+            "dimensions_angstroms": {
+                "x": 33.13,
+                "y": 33.23,
+                "z": 31.26
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": "no_data"
+    },
+    {
+        "id": "QDNP023",
+        "structure": {
+            "total_atoms": 738,
+            "elements": {
+                "Si": 168,
+                "C": 570
+            },
+            "dimensions_angstroms": {
+                "x": 36.08,
+                "y": 34.52,
+                "z": 36.3
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": "no_data"
+    },
+    {
+        "id": "QDNP024",
+        "structure": {
+            "total_atoms": 821,
+            "elements": {
+                "Si": 131,
+                "C": 690
+            },
+            "dimensions_angstroms": {
+                "x": 39.52,
+                "y": 38.13,
+                "z": 37.88
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": "no_data"
+    },
+    {
+        "id": "QDNP025",
+        "structure": {
+            "total_atoms": 15489,
+            "elements": {
+                "O": 6727,
+                "Zn": 6362,
+                "C": 2200,
+                "S": 200
+            },
+            "dimensions_angstroms": {
+                "x": 92.36,
+                "y": 92.49,
+                "z": 92.42
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": {
+            "assay_name": "Zeta Potential in Water",
+            "result": -59.3,
+            "sd": 11.6
+        }
+    },
+    {
+        "id": "QDNP026",
+        "structure": {
+            "total_atoms": 15089,
+            "elements": {
+                "O": 6727,
+                "Zn": 6362,
+                "C": 1200,
+                "N": 800
+            },
+            "dimensions_angstroms": {
+                "x": 83.3,
+                "y": 83.27,
+                "z": 83.26
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": {
+            "assay_name": "Zeta Potential in Water",
+            "result": -66.7,
+            "sd": 11.0
+        }
+    },
+    {
+        "id": "QDNP027",
+        "structure": {
+            "total_atoms": 379,
+            "elements": {
+                "Te": 146,
+                "Cd": 113,
+                "C": 60,
+                "S": 20,
+                "O": 40
+            },
+            "dimensions_angstroms": {
+                "x": 30.71,
+                "y": 30.74,
+                "z": 31.57
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": {
+            "assay_name": "Zeta Potential in Water",
+            "result": -61.4,
+            "sd": 12.3
+        }
+    },
+    {
+        "id": "QDNP028",
+        "structure": {
+            "total_atoms": 940,
+            "elements": {
+                "Te": 339,
+                "Cd": 301,
+                "C": 150,
+                "S": 50,
+                "O": 100
+            },
+            "dimensions_angstroms": {
+                "x": 45.29,
+                "y": 45.58,
+                "z": 45.44
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": {
+            "assay_name": "Zeta Potential in Water",
+            "result": -47.9,
+            "sd": 11.4
+        }
+    },
+    {
+        "id": "QDNP029",
+        "structure": {
+            "total_atoms": 1724,
+            "elements": {
+                "Te": 565,
+                "Cd": 559,
+                "C": 300,
+                "S": 100,
+                "O": 200
+            },
+            "dimensions_angstroms": {
+                "x": 53.53,
+                "y": 51.86,
+                "z": 51.95
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": {
+            "assay_name": "Zeta Potential in Water",
+            "result": -72.1,
+            "sd": 10.5
+        }
+    },
+    {
+        "id": "QDNP030",
+        "structure": {
+            "total_atoms": 2534,
+            "elements": {
+                "Te": 967,
+                "Cd": 967,
+                "C": 300,
+                "S": 100,
+                "O": 200
+            },
+            "dimensions_angstroms": {
+                "x": 58.18,
+                "y": 58.61,
+                "z": 58.48
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": {
+            "assay_name": "Zeta Potential in Water",
+            "result": -50.3,
+            "sd": 12.7
+        }
+    },
+    {
+        "id": "QDNP031",
+        "structure": {
+            "total_atoms": 3442,
+            "elements": {
+                "Te": 1462,
+                "Cd": 1380,
+                "C": 300,
+                "S": 100,
+                "O": 200
+            },
+            "dimensions_angstroms": {
+                "x": 68.03,
+                "y": 68.9,
+                "z": 68.58
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": {
+            "assay_name": "Zeta Potential in Water",
+            "result": -63.8,
+            "sd": 11.9
+        }
+    },
+    {
+        "id": "QDNP032",
+        "structure": {
+            "total_atoms": 390,
+            "elements": {
+                "Te": 152,
+                "Cd": 158,
+                "S": 20,
+                "C": 40,
+                "N": 20
+            },
+            "dimensions_angstroms": {
+                "x": 39.43,
+                "y": 39.43,
+                "z": 39.41
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": {
+            "assay_name": "Zeta Potential in Water",
+            "result": -57.2,
+            "sd": 12.0
+        }
+    },
+    {
+        "id": "QDNP033",
+        "structure": {
+            "total_atoms": 10851,
+            "elements": {
+                "O": 5438,
+                "Zn": 4613,
+                "C": 800
+            },
+            "dimensions_angstroms": {
+                "x": 78.64,
+                "y": 78.47,
+                "z": 78.46
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": {
+            "assay_name": "Zeta Potential in Water",
+            "result": -68.9,
+            "sd": 10.4
+        }
+    },
+    {
+        "id": "QDNP034",
+        "structure": {
+            "total_atoms": 48864,
+            "elements": {
+                "O": 21975,
+                "Zn": 18889,
+                "C": 6000,
+                "N": 2000
+            },
+            "dimensions_angstroms": {
+                "x": 137.46,
+                "y": 137.37,
+                "z": 137.31
+            },
+            "approximate_shape": "Spherical"
+        },
+        "assay": {
+            "assay_name": "Zeta Potential in Water",
+            "result": 33.2,
+            "sd": null
+        }
+    }
+]

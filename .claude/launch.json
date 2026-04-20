@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "qdot-discover (Next.js)",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "cwd": "qdot-discover",
+      "port": 3000,
+      "autoPort": true
+    },
+    {
+      "name": "analysis (Jupyter Notebook)",
+      "runtimeExecutable": "jupyter",
+      "runtimeArgs": ["notebook", "analysis.ipynb"],
+      "port": 8888
+    }
+  ]
+}

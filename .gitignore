@@ -1,0 +1,19 @@
+# OS
+.DS_Store
+
+# Generated / large analysis outputs
+QDNP015_ANM_modes.nmd
+pdb_files/QDNP015_fixed.pdb
+pdb_files/QDNP015_clean.pdb
+
+# Internal tooling
+.codex/
+
+# Next.js
+qdot-discover/.next/
+qdot-discover/node_modules/
+qdot-discover/.vercel/
+
+# Python
+__pycache__/
+*.pyc
